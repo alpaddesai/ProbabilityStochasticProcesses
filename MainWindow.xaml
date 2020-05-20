@@ -5,8 +5,61 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ProbabilityStochasticProcesses"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="353" Width="557" MaxWidth="557" MaxHeight="353">
     <Grid>
+        <TabControl MaxWidth="557" MaxHeight="337">
+            <TabItem Header="ProbabilityTheory">
+                <Grid Background="#FFE5E5E5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="106*"/>
+                        <ColumnDefinition Width="9*"/>
+                        <ColumnDefinition Width="64*"/>
+                        <ColumnDefinition Width="28*"/>
+                        <ColumnDefinition Width="344*"/>
+                    </Grid.ColumnDefinitions>
+                    <Label Content="Reference: Probability and Stochastic Processes with Applications Oliver Knill" HorizontalAlignment="Left" Margin="5,260,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Normal" Grid.ColumnSpan="5"/>
+                    <CheckBox x:Name="Bernoulli_RV" Content="Bernoulli_RV" HorizontalAlignment="Left" Margin="15,14,0,0" VerticalAlignment="Top" Height="35" Width="134" Checked="Bernoulli_RV_Checked" Grid.ColumnSpan="3"/>
+                    <CheckBox x:Name="BinomialRV" Content="BinomialRV" HorizontalAlignment="Left" Margin="16,40,0,0" VerticalAlignment="Top" Checked="BinomialRV_Checked"/>
+                    <CheckBox x:Name="PoissonRV" Content="PoissonRV" HorizontalAlignment="Center" Margin="0,70,0,0" VerticalAlignment="Top" Checked="PoissonRV_Checked"/>
+                    <CheckBox x:Name="Hypergeometric" Content="Hypergeometric" HorizontalAlignment="Left" Margin="15,97,0,0" VerticalAlignment="Top" Checked="Hypergeometric_Checked"/>
+                    <CheckBox x:Name="Geometric" Content="Geometric" HorizontalAlignment="Center" Margin="0,122,0,0" VerticalAlignment="Top" Checked="Geometric_Checked"/>
+                    <CheckBox x:Name="NegativeBinomial" Content="Negative Binomial" HorizontalAlignment="Left" Margin="16,152,0,0" VerticalAlignment="Top" Checked="NegativeBinomial_Checked" Grid.ColumnSpan="3" Width="125"/>
+                    <CheckBox x:Name="Discrete_Uniform" Content="Discrete Uniform" HorizontalAlignment="Left" Margin="18,178,0,0" VerticalAlignment="Top" Checked="Discrete_Uniform_Checked" Width="120" Grid.ColumnSpan="3"/>
+                    <CheckBox x:Name="RVFunctions" Content="RV Functions" HorizontalAlignment="Left" Margin="17,205,0,0" VerticalAlignment="Top" Checked="CheckBox_Checked"/>
+                    <CheckBox x:Name="DeriveMeanVariance" Content="Derive Mean Variance" Margin="16,229,25,0" VerticalAlignment="Top" Checked="DeriveMeanVariance_Checked" Grid.ColumnSpan="3"/>
+                    <CheckBox x:Name="Range" Content="Probability Range" HorizontalAlignment="Left" Margin="36,224,0,0" VerticalAlignment="Top" Grid.Column="2" Checked="Range_Checked" Grid.ColumnSpan="3"/>
+                    <CheckBox x:Name="JointPDF" Content="Joint PDF" HorizontalAlignment="Left" Margin="37,164,0,0" VerticalAlignment="Top" Checked="JointPDF_Checked" Grid.Column="2" Grid.ColumnSpan="3"/>
+                    <CheckBox x:Name="FunctionsofRV" Content="Functions of RV" HorizontalAlignment="Left" Margin="36,193,0,0" VerticalAlignment="Top" Checked="FunctionsofRV_Checked" Grid.Column="2" Grid.ColumnSpan="3"/>
+                    <CheckBox x:Name="Covariance" Content="Covariance" HorizontalAlignment="Left" Margin="36,135,0,0" VerticalAlignment="Top" Grid.Column="2" Grid.ColumnSpan="3"/>
+                    <CheckBox x:Name="CentralLimitTheorem" Content="Central Limit Theorem" HorizontalAlignment="Left" Margin="34,105,0,0" VerticalAlignment="Top" Checked="CentralLimitTheorem_Checked" Width="141" Grid.Column="2" Grid.ColumnSpan="3"/>
+                    <CheckBox x:Name="ConditionalPDF" Content="Conditional PDF" Grid.Column="2" HorizontalAlignment="Left" Margin="33,16,0,0" VerticalAlignment="Top" Checked="CheckBox_Checked_1" Grid.ColumnSpan="3"/>
+                    <CheckBox x:Name="Chebyshev_sInequality" Content="Chebyshev's Inequality" Grid.Column="2" HorizontalAlignment="Left" Margin="34,45,0,0" VerticalAlignment="Top" Checked="Chebyshev_sInequality_Checked" Grid.ColumnSpan="3"/>
+                    <CheckBox x:Name="Stingling_sFormula" Content="Stingling'sFormula" Grid.Column="2" HorizontalAlignment="Left" Margin="34,74,0,0" VerticalAlignment="Top" Grid.ColumnSpan="3"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Discrete Stochastic Processes">
+                <Grid Background="#FFE5E5E5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="28*"/>
+                        <ColumnDefinition Width="4*"/>
+                        <ColumnDefinition Width="23*"/>
+                        <ColumnDefinition Width="496*"/>
+                    </Grid.ColumnDefinitions>
+                    <Label Content="Reference: www.mhhe.com/papoulis" HorizontalAlignment="Left" Margin="124,353,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Normal" Grid.Column="3"/>
+                    <Button x:Name="DiscreteStochasticProcess" Content="Discrete Stochastic Process" HorizontalAlignment="Left" Margin="18,20,0,0" VerticalAlignment="Top" Height="44" Width="194" Grid.ColumnSpan="4" Click="DiscreteStochasticProcess_Click">
+                        <Button.Background>
+                            <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.ControlLightLightColorKey}}"/>
+                        </Button.Background>
+                    </Button>
+                    <Button x:Name="ContinuousStochasticProcess" Content="Continuous Stochastic Process" HorizontalAlignment="Left" Margin="24,96,0,0" VerticalAlignment="Top" Height="45" Width="186" Grid.ColumnSpan="4" Click="ContinuousStochasticProcess_Click">
+                        <Button.Background>
+                            <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.ControlLightLightColorKey}}"/>
+                        </Button.Background>
+                    </Button>
+                    <Label Content="Reference: Probability, Random Variables and Stochastic Processes by Papoulis" HorizontalAlignment="Left" Margin="23,175,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Normal" Grid.ColumnSpan="4"/>
+                </Grid>
+            </TabItem>
+        </TabControl>
 
     </Grid>
 </Window>
