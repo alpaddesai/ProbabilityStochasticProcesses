@@ -8,5 +8,11 @@ Please reference the executable in https://github.com/alpaddesai/ProbabilityStoc
 
 All images are either custom by Alpa D Desai or a reference name is provided.
 
+## Probability Theory 
+![image](ProbabilityTheory.png)
+
+## Stochastic Processes
+![image](StochasticProcess.png)
+
 ## Applications of Probability and Stochastic Processes
 ![image](RFTesting.png)
