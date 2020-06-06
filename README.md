@@ -14,5 +14,5 @@ All images are either custom by Alpa D Desai or a reference name is provided.
 ## Stochastic Processes
 ![image](StochasticProcess.png)
 
-## Applications of Probability and Stochastic Processes
-![image](RFTesting.png)
+## Matlab
+![image](MatlabCertificate.jpg)
