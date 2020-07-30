@@ -25,6 +25,3 @@ All images are either custom by Alpa D Desai or a reference name is provided.
 
 ## Probability and statistics
 ![image](ProbabilityCertificateIII.jpg)
-
-## Matlab 
-![image](Matlabcertificate.jpg)
