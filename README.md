@@ -1,4 +1,4 @@
-# Probability Stochastic Processes
+# Probability 
 
 The project provides an introduction to Probability Stochastic Processes
 
