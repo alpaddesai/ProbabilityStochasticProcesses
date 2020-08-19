@@ -6,8 +6,6 @@ Confidential information is not displayed.
 
 Please reference the executable in https://github.com/alpaddesai/ProbabilityStochasticProcesses/releases for details.
 
-Advanced knowledge in https://github.com/alpaddesai/BigDataDataScienceMachineLearning
-
 All images are either custom by Alpa D Desai or a reference name is provided.
 
 ## Probability Theory 
