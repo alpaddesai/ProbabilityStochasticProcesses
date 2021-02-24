@@ -14,16 +14,16 @@ All images are either custom by Alpa D Desai or a reference name is provided.
 ## Stochastic Processes
 ![image](StochasticProcess.png)
 
-
 ## Probability and statistics
 ![image](ProbabilityCertificateI.jpg)
-
 
 ## Probability and statistics
 ![image](ProbabilityCertificateII.jpg)
 
-
 ## Probability and statistics
 ![image](ProbabilityCertificateIII.jpg)
+
+## Interest
+![image](image1.png)
 
 https://github.com/alpaddesai/BigDataDataScienceMachineLearning
