@@ -26,4 +26,4 @@ All images are either custom by Alpa D Desai or a reference name is provided.
 ## Interest
 ![image](image1.png)
 
-https://github.com/alpaddesai/BigDataDataScienceMachineLearning
+Additional details reference: https://github.com/alpaddesai/BigDataDataScience
