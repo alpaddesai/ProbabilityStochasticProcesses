@@ -23,6 +23,9 @@ All images are either custom by Alpa D Desai or a reference name is provided.
 ## Probability and statistics
 ![image](ProbabilityCertificateIII.jpg)
 
+## Probability
+![image](Probability.jpg)
+
 ## Interest
 ![image](image1.png)
 
