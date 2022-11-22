@@ -23,11 +23,11 @@ All images are either custom by Alpa D Desai or a reference name is provided.
 ## Probability and statistics
 ![image](ProbabilityCertificateIII.jpg)
 
-## Probability
-![image](Probability.jpg)
-
 ## Exam
 ![image](CFAExam.jpg)
+
+## Probability
+![image](Probability.jpg)
 
 ![image](USCopyrightCertificate.png)
 
