@@ -31,4 +31,4 @@ All images are either custom by Alpa D Desai or a reference name is provided.
 
 ![image](USCopyrightCertificate.png)
 
-Additional details reference: https://github.com/alpaddesai/BigDataDataScience
+Additional details reference: https://github.com/alpaddesai/DesignEngineering
