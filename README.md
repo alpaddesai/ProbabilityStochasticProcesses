@@ -26,4 +26,6 @@ All images are either custom by Alpa D Desai or a reference name is provided.
 
 ![image](USCopyrightCertificate.png)
 
+![image](EthicsandExcellence.png)
+
 Additional details reference: https://github.com/alpaddesai/DesignEngineering
